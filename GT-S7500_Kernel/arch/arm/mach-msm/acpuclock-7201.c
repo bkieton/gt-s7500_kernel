@@ -325,12 +325,12 @@ static struct clkctl_acpu_speed pll0_960_pll1_245_pll2_1200_pll4_1008[] = {
 	{ 0, 504000,  ACPU_PLL_4   , 6, 1,  63000, 3, 6, 200000 },
 	{ 1, 600000,  ACPU_PLL_2   , 2, 1,  75000, 3, 6, 200000 },
 #ifdef CONFIG_MSM7X27AA_800STEP
-	{ 1, 800000,  ACPU_PLL_4   , 6, 0, 100000, 3, 6, 200000 },
+	{ 0, 800000,  ACPU_PLL_4   , 6, 0, 100000, 3, 6, 200000 },
 #endif
 	{ 1, 1008000, ACPU_PLL_4   , 6, 0, 126000, 3, 7, 200000 },
 #ifdef CONFIG_MSM7X27AA_OVERCLOCK
-	/*enable, frequency, appl?, ?,?,?,?always 3, voltage level,? */
-	{ 1, 1134000, ACPU_PLL_4   , 6, 0, 126000, 3, 7, 200000 },
+	/*enable, frequency, ppl?, pll_id?, freq_divider+1 ?,? freq divided by 8,?always 3, voltage level,? */
+	{ 1, 1200000, ACPU_PLL_2   , 2, 0, 150000, 3, 7, 200000 },
 #endif
 	{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, {0, 0, 0, 0}, {0, 0, 0, 0} }
 };

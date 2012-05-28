@@ -1243,7 +1243,7 @@ config MSM7X27AA_800STEP
 	depends on MSM_CPU_FREQ_SET_MIN_MAX
 	default n
 	help
-	  Enable extra frequency step. Experimental.
+	  Enable extra frequency step. Experimental. (Does not work)
 
 config MSM7X27AA_OVERCLOCK
 	bool "Enable overclock for GT-S7500"
@@ -1251,7 +1251,7 @@ config MSM7X27AA_OVERCLOCK
 	default n
 	help
 	  Enable overclock for GT-S7500. NOT tested. Make sure to enable
-	  Max CPU Frequency to 1008000
+	  Max CPU Frequency to 1008000. Maximium freq will be 1200Mhz.
 
 endif # CPU_FREQ_MSM
 

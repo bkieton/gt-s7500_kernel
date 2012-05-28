@@ -90,7 +90,7 @@ struct shared_pll_control {
 	uint32_t	version;
 	struct {
 		/* Denotes if the PLL is ON. Technically, this can be read
-		 * directly from the PLL registers, but this feild is here,
+		 * directly from the PLL registers, but this field is here,
 		 * so let's use it.
 		 */
 		uint32_t	on;
@@ -304,6 +304,7 @@ static struct clkctl_acpu_speed pll0_960_pll1_196_pll2_1200_pll4_800[] = {
 	{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, {0, 0, 0, 0}, {0, 0, 0, 0} }
 };
 
+/* GT-S7500 here */
 /* 7x27aa pll4 at 1008mhz with GSM capable modem */
 static struct clkctl_acpu_speed pll0_960_pll1_245_pll2_1200_pll4_1008[] = {
 #ifdef CONFIG_MSM7X27AA_19STEP

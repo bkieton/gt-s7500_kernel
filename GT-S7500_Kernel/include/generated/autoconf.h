@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux/arm 2.6.38.6 Kernel Configuration
- * Mon May 28 16:05:00 2012
+ * Wed May 30 23:07:47 2012
  */
 #define CONFIG_NF_CONNTRACK_H323 1
 #define CONFIG_SCSI_DMA 1
@@ -697,7 +697,6 @@
 #define CONFIG_BLK_DEV 1
 #define CONFIG_ARCH_HAS_BARRIERS 1
 #define CONFIG_TRACING_SUPPORT 1
-#define CONFIG_MSM7X27AA_OVERCLOCK 1
 #define CONFIG_UNIX98_PTYS 1
 #define CONFIG_NETFILTER_XT_TARGET_CONNMARK 1
 #define CONFIG_CRYPTO_ANSI_CPRNG_MODULE 1

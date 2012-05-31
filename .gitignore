@@ -1,8 +1,11 @@
 Image
 ramdisk.gz
+ramdisk_hc.gz
 boot.img
 kernel_blackburner.tar
 kernel_blackburner.tar.md5
+kernel_blackburner_hc.tar
+kernel_blackburner_hc.tar.md5
 GT-S7500_Kernel/.config.old
 GT-S7500_Kernel/.missing-syscalls.d
 GT-S7500_Kernel/.tmp_System.map

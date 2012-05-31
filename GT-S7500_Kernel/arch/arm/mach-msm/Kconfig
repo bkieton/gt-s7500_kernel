@@ -1238,13 +1238,6 @@ config MSM7X27AA_61STEP
 	help
 	  Enable hidden frequency step. Experimental.
 
-config MSM7X27AA_800STEP
-	bool "Add 800Mhz frequency step (GT-S7500)"
-	depends on MSM_CPU_FREQ_SET_MIN_MAX
-	default n
-	help
-	  Enable extra frequency step. Experimental. (Does not work)
-
 config MSM7X27AA_OVERCLOCK
 	bool "Enable overclock for GT-S7500"
 	depends on MSM_CPU_FREQ_SET_MIN_MAX

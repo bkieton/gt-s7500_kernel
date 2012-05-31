@@ -17,3 +17,5 @@ cd back to the main folder and run './build_final.sh' and the kernel is ready to
 
 Don't rename the output tar.md5 file (if you want change, edit build_final.sh to your liking)
 Else it wont flash.
+
+hc kernel stands for hard coded kernel (min freq at 19Mhz and samrtassV2 by default)

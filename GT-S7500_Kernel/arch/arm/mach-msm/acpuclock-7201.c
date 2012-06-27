@@ -361,13 +361,13 @@ static struct clkctl_acpu_speed pll0_960_pll1_245_pll2_1200_pll4_800_25a[] = {
 	{ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, {0, 0, 0, 0}, {0, 0, 0, 0} }
 };
 
-#define PLL_0_MHZ	0
-#define PLL_196_MHZ	10
-#define PLL_245_MHZ	12
-#define PLL_491_MHZ	25
-#define PLL_768_MHZ	40
-#define PLL_800_MHZ	41
-#define PLL_960_MHZ	50
+#define PLL_0_MHZ    	 0
+#define PLL_196_MHZ 	10
+#define PLL_245_MHZ 	12
+#define PLL_491_MHZ 	25
+#define PLL_768_MHZ 	40
+#define PLL_800_MHZ	    41
+#define PLL_960_MHZ 	50
 #define PLL_1008_MHZ	52
 #define PLL_1056_MHZ	55
 #define PLL_1200_MHZ	62

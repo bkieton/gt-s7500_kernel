@@ -272,17 +272,17 @@ void die(const char *str, struct pt_regs *regs, int err)
 	oops_enter();
 
 #ifdef CONFIG_SEC_DEBUG
-	{
+{
 		unsigned size;
 		samsung_vendor1_id *vendor1_id = (samsung_vendor1_id *)\
 			smem_get_entry(SMEM_ID_VENDOR1, &size);
 
-		/*error message */
+		//error message
 		memcpy(&(vendor1_id->apps_dump.apps_string),\
 			(void *)str, strlen(str));
 		vendor1_id->apps_dump.apps_string[strlen(str) + 1] = '\0';
 
-		/* current process*/
+		//current process
 		memcpy(&(vendor1_id->apps_dump.apps_process),\
 			(void *)thread->task->comm, strlen(thread->task->comm));
 		vendor1_id->apps_dump.apps_process[strlen(thread->task->comm) + 1] = '\0';

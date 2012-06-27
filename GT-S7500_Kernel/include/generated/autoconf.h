@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux/arm 2.6.38.6 Kernel Configuration
- * Fri Jun  1 11:45:33 2012
+ * Wed Jun 27 22:18:08 2012
  */
 #define CONFIG_NF_CONNTRACK_H323 1
 #define CONFIG_SCSI_DMA 1
@@ -643,7 +643,6 @@
 #define CONFIG_INET6_XFRM_TUNNEL 1
 #define CONFIG_MTD_MAP_BANK_WIDTH_2 1
 #define CONFIG_VIDEO_MEDIA 1
-#define CONFIG_IP_MULTICAST 1
 #define CONFIG_WAKELOCK_STAT 1
 #define CONFIG_HAS_EARLYSUSPEND 1
 #define CONFIG_CPU_32v6K 1
